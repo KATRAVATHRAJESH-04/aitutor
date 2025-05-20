@@ -961,5 +961,4 @@ if st.session_state["is_logged_in"]:
         st.session_state["chat_history"] = []
         st.session_state["badges"] = []
         st.session_state["score"] = 0
-        print("hello,git")
         st.rerun()
